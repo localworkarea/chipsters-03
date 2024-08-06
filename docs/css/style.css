@@ -512,6 +512,10 @@ body {
     transform: translate(0,0)
   }
 }
+.loaded .section-01,
+.loaded .section-02 {
+  opacity: 1!important
+}
 .section-01 .section-01__body {
   position: absolute;
   inset: 0;

@@ -213,6 +213,12 @@
   }
 }
 
+.section-01,
+.section-02 {
+  .loaded & {
+    opacity: 1 !important;
+  }
+}
 
 .section-01 {
   .section-01__body {
