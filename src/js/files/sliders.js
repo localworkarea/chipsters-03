@@ -39,6 +39,14 @@ function initSliders() {
 						prevEl: '.section-01__slider .swiper-button-prev',
 						nextEl: '.section-01__slider .swiper-button-next',
 				},
+				breakpoints: {
+					320: {
+						speed: 500,
+					},
+					767: {
+						speed: 800,
+					}
+				},
 				on: {
 						init: function () {
 								this.slides.forEach(function (slide, index) {

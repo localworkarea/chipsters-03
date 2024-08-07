@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240807122730">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240807172338">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -472,11 +472,70 @@
 				</div>
 			</section>
 			<section data-fp-section class="section-02" style="opacity: 0; transform: translate3d(0px, 100%, 0px);">
-
+				<div class="section-02__wrapper">
+					<div class="section-02__bg">
+						<picture>
+							<source srcset="img/bg/bg-02-pc.webp" media="(min-width: 30.061em)" type="image/webp">
+							<source srcset="img/bg/bg-02-mb.webp" media="(max-width: 30.061em)" type="image/webp">
+							<img loading="lazy" class="ibg" src="img/bg/bg-02-pc.webp" width="1400" height="830" alt="Зупинка, біля неї стоять дві пачки чипсів, чекаючи на автобус">
+						</picture>
+						<button class="section-02__btn-yt" type="button" data-popup="#video" data-popup-youtube="-oc7AtkP2jY" aria-label="кнопка відкриття попапу з відео youtube"></button>
+					</div>
+					<div class="section-02__chel-red">
+						<picture>
+							<source srcset="img/chel/chel-red-pc.webp" media="(min-width: 30.061em)" type="image/webp">
+							<source srcset="img/chel/chel-red-mb.webp" media="(max-width: 30.061em)" type="image/webp">
+							<img loading="lazy" class=" ibg ibg--contain" src="img/chel/chel-red-pc.webp" width="1400" height="830" alt="Червона пачка чипсів у вигляді людини строїть на зупинці та тримає у руках пакет з чипсами">
+						</picture>
+					</div>
+					<div class="section-02__chel-yellow">
+						<picture>
+							<source srcset="img/chel/chel-yellow-pc.webp" media="(min-width: 30.061em)" type="image/webp">
+							<source srcset="img/chel/chel-yellow-mb.webp" media="(max-width: 30.061em)" type="image/webp">
+							<img loading="lazy" class="ibg ibg--contain" src="img/chel/chel-yellow-pc.webp" width="1400" height="830" alt="Жовта пачка чипсів у вигляді людини строїть на зупинці та тримає у руках пакет з чипсами">
+						</picture>
+					</div>
+					<div class="section-02__bottom">
+						<p class="section-02__label">
+							<span>ЗАЛiТАЙ НА ЧiiiЛ!</span>
+						</p>
+						<ul class="social">
+							<li class="social__item">
+								<a href="https://www.facebook.com/chipstersflint/" class="social__link">
+									<img src="img/icons/ic-f.svg" width="50" height="50" alt="іконка фейсбук">
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="https://www.instagram.com/chipsters.tm/" class="social__link">
+									<img src="img/icons/ic-i.svg" width="50" height="50" alt="іконка інстаграм">
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="https://www.youtube.com/watch?v=W0Q51Rgff4k" class="social__link">
+									<img src="img/icons/ic-yt.svg" width="50" height="50" alt="іконка ютюб">
+								</a>
+							</li>
+						</ul>
+					</div>
 			</section>
 		</main>
 	</div>
-	<script src="js/app.min.js?_v=20240807122730"></script>
+	<div id="video" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M1 18L19 1" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+						<path d="M1 1L19 18" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+					</svg>
+				</button>
+				<div data-youtube-place class="popup__text">
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20240807172338"></script>
 </body>
 
 </html>
