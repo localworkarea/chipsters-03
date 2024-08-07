@@ -2,17 +2,17 @@
   position: fixed;
   z-index: 10;
   left: 50%;
-  background-color:$redMain;
+  // background-color:$redMain;
   transform: translate(-50%,0);
-  transition: opacity .45s ease, background-color .3s ease;
+  transition: opacity .45s ease;
   opacity: 0;
   @include adaptiveValue("top", 29, 14,0,1440,480.98);
   .loaded & {
     opacity: 1;
   }
-  .fp-section-1 & {
-    background-color:transparent;
-  }
+  // .fp-section-1 & {
+  //   background-color:transparent;
+  // }
   // .fp-section-5 & {
   //   @media (max-width: toEm(900.98)) and (max-height: toRem(480.98)) {
   //     opacity: 0;

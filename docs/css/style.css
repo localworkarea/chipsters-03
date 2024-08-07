@@ -257,17 +257,13 @@ body::after {
   position: fixed;
   z-index: 10;
   left: 50%;
-  background-color: #ec1c2d;
   -webkit-transform: translate(-50%,0);
   transform: translate(-50%,0);
-  transition: opacity .45s ease,background-color .3s ease;
+  transition: opacity .45s ease;
   opacity: 0
 }
 .loaded .logo {
   opacity: 1
-}
-.fp-section-1 .logo {
-  background-color: rgba(0,0,0,0)
 }
 .logo img {
   height: auto
