@@ -4,7 +4,7 @@
   left: 50%;
   background-color:$redMain;
   transform: translate(-50%,0);
-  transition: opacity .3s ease, background-color .3s ease;
+  transition: opacity .45s ease, background-color .3s ease;
   opacity: 0;
   @include adaptiveValue("top", 29, 14,0,1440,480.98);
   .loaded & {

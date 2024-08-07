@@ -260,7 +260,7 @@ body::after {
   background-color: #ec1c2d;
   -webkit-transform: translate(-50%,0);
   transform: translate(-50%,0);
-  transition: opacity .3s ease,background-color .3s ease;
+  transition: opacity .45s ease,background-color .3s ease;
   opacity: 0
 }
 .loaded .logo {
@@ -472,7 +472,11 @@ body::after {
   z-index: 2;
   width: -webkit-max-content;
   width: max-content;
+  opacity: 0;
   transition: opacity .45s ease
+}
+.loaded .section-00__btn-wr {
+  opacity: 1
 }
 ._bus-active .section-00__btn-wr {
   opacity: 0;
